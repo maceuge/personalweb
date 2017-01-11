@@ -1,0 +1,43 @@
+/* ---- particles.js container ---- */
+#particles-js{
+    position:absolute;
+    width: 100%;
+    height: 600px;
+    /*background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);*/
+    /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #039be5 75%);*/
+    /*background-color: #0fb8ad;*/
+    background-image: url("../img/polygon/color_polygonsJ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+
+.partcontainer {
+    min-height: 600px;
+}
+
+.particle-h1 {
+    font-size: 40px;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.particle-hr {
+    max-width: 350px;
+    opacity: 0.65;
+}
+
+.particle-p {
+    font-size: 22px;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.carucel-tit {
+    position: absolute;
+    margin-top: 200px;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+}
+
+.hidedown {
+    margin-top: 500px;
+    opacity: 0;
+}
