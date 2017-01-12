@@ -110,20 +110,23 @@ section {
 .bg-1 {
     background: url('../img/parallax/estudiosdark.jpg') no-repeat center center fixed;
     color:#fff;
-    background-size:auto;
     margin-top: 0px;
+    background-size:auto;
+    -webkit-background-size: auto;
 }
 
 .bg-2 {
     background: url('../img/parallax/desarrollo.jpg') no-repeat top center fixed;
     color:#fff;
     background-size:auto;
+    -webkit-background-size: auto;
 }
 
 .bg-3 {
     background: url('../img/parallax/footerbluedark.jpg') no-repeat top center fixed;
     color:#fff;
-    background-size:auto;
+    background-size: auto;
+    -webkit-background-size: auto;
 }
 
 .footer-section {
