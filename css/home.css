@@ -110,20 +110,20 @@ section {
 .bg-1 {
     background: url('../img/parallax/estudiosdark.jpg') no-repeat center center fixed;
     color:#fff;
-    background-size:cover;
+    background-size:auto;
     margin-top: 0px;
 }
 
 .bg-2 {
     background: url('../img/parallax/desarrollo.jpg') no-repeat top center fixed;
     color:#fff;
-    background-size:cover;
+    background-size:auto;
 }
 
 .bg-3 {
-    background: url('../img/parallax/footerbluedark.jpg') no-repeat bottom center fixed;
+    background: url('../img/parallax/footerbluedark.jpg') no-repeat top center fixed;
     color:#fff;
-    background-size:cover;
+    background-size:auto;
 }
 
 .footer-section {
@@ -296,20 +296,38 @@ section {
     transition: all 0.2s ease-in-out;
 }
 
-.favicons i {
-    /*padding-left: 21px;*/
-}
-
 .circle {
     display: inline;
     margin-right: 20px;
 }
 
 .circle i{
-    padding: 12px;
+    padding: 10px 12px;
     border-radius: 7px;
     border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
 }
+
+.twitter i:hover {
+    background-color: #00aced;
+}
+
+.instagram i:hover {
+    background-color: #bc2a8d;
+}
+
+.github i:hover {
+    background-color: #333333;
+}
+
+.linkedin i:hover {
+    background-color: #007bb6;
+}
+
+.slack i:hover {
+    background-color: #78D4B6;
+}
+
 
 .footer-bar {
     font-size: 15px;
@@ -330,7 +348,6 @@ section {
     bottom: 10px;
     right: 10px;
     z-index: 200;
-
     border: 2px solid #636163;
     color: #636163;
     display: inline-block;
@@ -339,7 +356,6 @@ section {
     cursor: pointer;
     border-radius: 4px;
     transition: all 0.5s ease-in-out;
-    /*display: none;*/
 }
 
 .btn-rolltop:hover {
@@ -444,7 +460,7 @@ ul.galeria > li img:hover {
 /*Portfolio*/
 
 .ch-grid {
-    margin: 20px 15px;
+    margin: 20px 0px;
     padding: 0;
     list-style: none;
     display: block;

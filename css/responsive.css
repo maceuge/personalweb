@@ -1,0 +1,160 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .particle-h1 {
+        font-size: 20px;
+    }
+    .particle-p {
+        font-size: 15px;
+    }
+    .particle-hr {
+        max-width: 140px;
+    }
+    .partcontainer {
+        min-height: 470px;
+    }
+    #particles-js {
+        height: 470px;
+    }
+    .carucel-tit {
+        margin-top: 150px;
+        padding-right: 20px;
+    }
+
+    .presentacion {
+        margin-bottom: 30px;
+    }
+
+    .homepage {
+        padding-top: 10px;
+    }
+    section {
+        padding-top: 10px;
+    }
+
+    .tag {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .study {
+        min-height: 140px;
+    }
+
+    .circle {
+        margin-right: 17px;
+    }
+
+    .contact {
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+    .particle-h1 {
+        font-size: 20px;
+    }
+    .particle-p {
+        font-size: 15px;
+    }
+    .particle-hr {
+        max-width: 140px;
+    }
+    .partcontainer {
+        min-height: 470px;
+    }
+    #particles-js {
+        height: 470px;
+    }
+    .carucel-tit {
+        margin-top: 150px;
+        padding-right: 20px;
+    }
+
+    .presentacion {
+        margin-bottom: 30px;
+    }
+
+    .homepage {
+        padding-top: 10px;
+    }
+    section {
+        padding-top: 10px;
+    }
+
+    .tag {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .study {
+        min-height: 140px;
+    }
+
+    .circle {
+        margin-right: 5px;
+    }
+
+    .footer-section {
+        min-height: 950px;
+    }
+
+    .contact {
+        margin-bottom: 40px;
+    }
+}
