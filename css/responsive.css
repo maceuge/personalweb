@@ -42,6 +42,77 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
+    .particle-h1 {
+        font-size: 20px;
+    }
+    .particle-p {
+        font-size: 15px;
+    }
+    .particle-hr {
+        max-width: 140px;
+    }
+    .partcontainer {
+        min-height: 470px;
+    }
+    #particles-js {
+        height: 470px;
+    }
+    .carucel-tit {
+        margin-top: 150px;
+        padding-right: 20px;
+    }
+
+    .presentacion {
+        margin-bottom: 30px;
+    }
+
+    .homepage {
+        padding-top: 10px;
+    }
+    section {
+        padding-top: 10px;
+    }
+
+    .tag {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .study {
+        min-height: 140px;
+    }
+
+    .circle {
+        margin-right: 5px;
+    }
+
+    .footer-section {
+        min-height: 950px;
+    }
+
+    .contact {
+        margin-bottom: 40px;
+    }
+
+    .bg-1 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .bg-2 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .bg-3 {
+        background-image: none;
+        /*background-color: rgba(17, 23, 69, 1) 100%;*/
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -91,11 +162,31 @@
     }
 
     .circle {
-        margin-right: 17px;
+        margin-right: 5px;
+    }
+
+    .footer-section {
+        min-height: 950px;
     }
 
     .contact {
         margin-bottom: 40px;
+    }
+
+    .bg-1 {
+        background-image: none;
+        /*background-color: #039be5;*/
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .bg-2 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .bg-3 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
     }
 
 }
@@ -157,4 +248,21 @@
     .contact {
         margin-bottom: 40px;
     }
+
+    .bg-1 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .bg-2 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+    .bg-3 {
+        background-image: none;
+        background: radial-gradient(circle, rgba(36, 56, 134, 1) 0%, rgba(17, 23, 69, 1) 100%);
+    }
+
+
 }
