@@ -60,6 +60,14 @@
     background-color: #039be5;
 }
 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #fff;
+}
+
 /*Fin Navbar*/
 
 
@@ -483,7 +491,7 @@ ul.galeria > li img:hover {
     width: 220px;
     height: 220px;
     display: inline-block;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
     vertical-align: top;
 }
 
