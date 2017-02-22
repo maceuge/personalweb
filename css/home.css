@@ -151,8 +151,9 @@ section {
 .present {
     margin-top: 13px;
     margin-bottom: 13px;
-    font-size: 17px;
+    font-size: 16px;
     color: #4a4a4a;
+    transition: all 0.5s ease-in-out;
 }
 
 .tag {
@@ -162,9 +163,24 @@ section {
 }
 
 .foto-row {
-    border: 1px solid #039be5;
-    height: 400px;
+    margin-top: 14px;
+    margin-bottom: 40px;
+    /*border: 1px solid #039be5;*/
+    /*height: 400px;*/
 }
+
+.tit-hobby {
+    font-size: 22px;
+}
+
+.soundcloud {
+    color: #f50;
+}
+
+.soundcloud:hover, .soundcloud:focus{
+    color: #963d00;
+}
+
 
 /*Fin de Seccion SOBRE MI*/
 
@@ -207,9 +223,20 @@ section {
 }
 
 .invest-firebase:hover {
-    background-color: rgba(0, 97, 172, 1);
+    background-color: rgb(0, 71, 141);
     /*background-color: rgba(3, 155, 229, 0.93);*/
     border: 3px solid #ffffff;
+}
+
+.invest-swift:hover {
+    background-color: #b95d30;
+    /*background-color: rgba(0, 97, 172, 1);*/
+    /*background-color: rgba(3, 155, 229, 0.93);*/
+    border: 3px solid #ffffff;
+}
+
+.img-border {
+    border-radius: 20px;
 }
 
 .invest-logo {
@@ -306,7 +333,6 @@ section {
 
 .circle {
     display: inline;
-    margin-right: 20px;
 }
 
 .circle i{
@@ -314,6 +340,10 @@ section {
     border-radius: 7px;
     border: 1px solid #fff;
     transition: all 0.3s ease-in-out;
+}
+
+.face i {
+    padding: 10px 16px;
 }
 
 .twitter i:hover {
@@ -334,6 +364,10 @@ section {
 
 .slack i:hover {
     background-color: #78D4B6;
+}
+
+.face i:hover {
+    background-color: #0061ac;
 }
 
 
