@@ -181,6 +181,11 @@ section {
     color: #963d00;
 }
 
+.badge {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
 
 /*Fin de Seccion SOBRE MI*/
 
@@ -331,43 +336,39 @@ section {
     transition: all 0.2s ease-in-out;
 }
 
-.circle {
-    display: inline;
-}
-
-.circle i{
-    padding: 10px 12px;
-    border-radius: 7px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-in-out;
-}
-
 .face i {
-    padding: 10px 16px;
+    padding: 1px 2px;
 }
 
-.twitter i:hover {
+
+.twitter:hover {
     background-color: #00aced;
+    color: #ffffff;
 }
 
-.instagram i:hover {
+.instagram:hover {
     background-color: #bc2a8d;
+    color: #ffffff;
 }
 
-.github i:hover {
+.github:hover {
     background-color: #333333;
+    color: #ffffff;
 }
 
-.linkedin i:hover {
+.linkedin:hover {
     background-color: #007bb6;
+    color: #ffffff;
 }
 
-.slack i:hover {
+.slack:hover {
     background-color: #78D4B6;
+    color: #ffffff;
 }
 
-.face i:hover {
+.face:hover {
     background-color: #0061ac;
+    color: #ffffff;
 }
 
 
@@ -396,7 +397,7 @@ section {
     padding: 9px 10px;
     margin-bottom: 0;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
 
@@ -408,6 +409,11 @@ section {
 .btn-rolltop:focus {
     color: #636163;
 }
+
+/*.btn-rolltop i {*/
+    /*padding-top: 1px;*/
+    /*padding-bottom: 3px;*/
+/*}*/
 
 /*Fin del boton*/
 

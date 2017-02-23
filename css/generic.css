@@ -64,8 +64,17 @@ textarea {
 }
 
 .btn {
-    /*margin: 3px 4px;*/
-    border-radius: 7px 0px 7px 0px;
-    border: 0px;
     transition: all 0.3s ease-in-out;
+}
+
+.fa-check {
+    margin-top: 10px;
+}
+
+.fa-times {
+    margin-top: 10px;
+}
+
+.has-error .help-block{
+    color: #ca363f;
 }
