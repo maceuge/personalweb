@@ -30,6 +30,7 @@
 .navbar-default .navbar-brand {
     font-size: 20px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -66,6 +67,22 @@
 
 .navbar-default .navbar-toggle {
     background-color: #fff;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #039be5;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+}
+
+.dropdown-menu {
+    background-color: rgba(255,255,255,0.82);
+    border-radius: 3px 3px;
 }
 
 /*Fin Navbar*/
@@ -203,12 +220,11 @@ section {
     border: 3px solid rgba(255, 255, 255, 0.4);
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 45px 60px 20px 60px;
     transition: all 0.3s ease-in-out;
 }
 
 .study:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     border: 3px solid #039be5;
 }
 
@@ -297,6 +313,7 @@ section {
 
 
 /*Footer*/
+
 #footer {
     min-height: 60px;
     background-color:#585858;
@@ -352,7 +369,7 @@ section {
 }
 
 .github:hover {
-    background-color: #333333;
+    background-color: #24292e;
     color: #ffffff;
 }
 
@@ -373,7 +390,12 @@ section {
 
 
 .footer-bar {
-    font-size: 15px;
+    font-size: 17px;
+}
+
+.separe {
+    margin-top: 18px;
+    margin-bottom: 30px;
 }
 
 /*Fin del Footer*/
@@ -410,12 +432,8 @@ section {
     color: #636163;
 }
 
-/*.btn-rolltop i {*/
-    /*padding-top: 1px;*/
-    /*padding-bottom: 3px;*/
-/*}*/
-
 /*Fin del boton*/
+
 
 
 
@@ -432,6 +450,11 @@ section {
 .form-control:focus {
     background-color: rgba(255, 255, 255, 1);
     color: #5c5c5c;
+}
+
+.help-block {
+    margin-top: 3px;
+    margin-bottom: 1px;
 }
 
 /*Fin de contacto*/

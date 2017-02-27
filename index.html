@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/notifIt.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/generic.css">
     <link rel="stylesheet" href="css/particles.css">
@@ -30,7 +31,7 @@
                 <span class="icon-bar"></span>
             </button>
             <img src="img/avatar.png" class="img-rounded navavatar" alt="Eugenio Vorontsov" width="40" height="40">
-            <a class="navbar-brand" href="index.html"> Eugenio Vorontsov</a>
+            <a class="navbar-brand" id="nav-titpage"> Eugenio Vorontsov</a>
             <!--<span class="recon"> < Web Full Stack Developer /> </span>-->
         </div>
 
@@ -47,9 +48,9 @@
                         <li><a href="#" id="desarrollo">Investigacion y Desarrollo</a></li>
                         <li><a href="#" id="libros">Libros Recomendados</a></li>
                         <li><a href="#" id="links">Links Interesantes</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Aptitudes</a></li>
-                        <li><a href="#">Pasatiempos</a></li>
+                        <!--<li role="separator" class="divider"></li>-->
+                        <!--<li><a href="#">Aptitudes</a></li>-->
+                        <!--<li><a href="#">Pasatiempos</a></li>-->
                     </ul>
                 </li>
                 <li><a href="#" id="portfolio"><!--i class="fa fa-th-large"></i--> Portfolio</a></li>
@@ -88,7 +89,7 @@
                 <hr class="particle-hr">
                 <p class="particle-p text-center white-txt">
                     El crecimiento personal crece con cada desafio, aprendiendo nuevas
-                    herramientas y tecnologias que llevan nuestros sueños a una realidad.
+                    herramientas y tecnologias que llevan nuestras ideas a una realidad.
                 </p>
             </div>
         </div>
@@ -195,7 +196,7 @@
                     involucrandome en el mundo de la Musica Electronica realizando varios cursos para
                     conocer las tecnicas de mezcla con distintos dispositivos electronicos como Vinilo, Bandejas y
                     Consola DJ grabando varios Sets propios que les comparto
-                    <a href="https://soundcloud.com/ruber-valtinjam/dj-qplay-set-dance-130-latidos" class="soundcloud">aqui</a>
+                    <a href="https://soundcloud.com/ruber-valtinjam/dj-qplay-set-dance-130-latidos" class="soundcloud" target="_blank">aqui</a>
                     <i class="fa fa-soundcloud fa-lg soundcloud"></i>.
                 </em>
             </p>
@@ -229,24 +230,24 @@
             <div class="col-md-6">
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#dhModal">
-                        <img class="img-responsive" src="img/logo/logo_digitalhouse.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/dh_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#ubaModal">
-                        <img class="img-responsive" src="img/logo/logo_uba.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/uba_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#utnModal">
-                        <img class="img-responsive" src="img/logo/logo_utn.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/utn_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
                 <div class="study">
                     <a class="conocim-link" href="" data-toggle="modal" data-target="#cpiModal">
-                        <img class="img-responsive" src="img/logo/logo_ipc.fw.png" alt="" height="180">
+                        <img class="img-responsive center-block" src="img/cursos/ipc_log.fw.png" alt="" width="552" height="197">
                     </a>
                 </div>
             </div>
@@ -469,7 +470,7 @@
             </div>
         </div><!--/row1-->
         <div class="row">
-            <div class="col-md-3 col-xs-12">
+            <div class="col-xs-12 col-md-3 col-lg-3">
                 <h4><!--i class="fa fa-book"></i--> Libros Recomendados</h4>
                 <div class="list-footer">
                     <ul>
@@ -497,7 +498,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-xs-12">
+            <div class="col-xs-12 col-md-2 col-lg-2">
                 <h4><!--i class="fa fa-link"></i--> Links Interesantes</h4>
                 <div class="list-footer">
                     <ul>
@@ -513,85 +514,91 @@
                 </div>
             </div>
 
-            <div class="col-md-5 col-md-offset-1 col-xs-12 contact">
+            <div class="col-xs-12 col-md-4 col-lg-4 contact">
                 <h4><!--i class="fa fa-envelope-o"--></i> Contacto</h4>
-                <form class="form" action=" " method="post" id="sendmail">
+                <form class="form" action="" method="post" id="sendmail">
                     <div class="form-group">
-                        <!--<div class="input-group"> <span class="input-group-addon"><i class="fa fa-gear"></i></span>-->
-                            <input type="text" class="form-control" name="asunto" id="about" placeholder="Asunto">
-                        <!--</div>-->
+                        <span class="help-block"></span>
+                        <input type="text" class="form-control" name="asunto" id="about" placeholder="Asunto" maxlength="30">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="emailsender" placeholder="Email">
+                        <span class="help-block"></span>
+                        <input type="text" class="form-control" name="email" id="emailsender" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="comentario" id="comment" placeholder="Comentario..." rows="4"></textarea>
+                        <span class="help-block"></span>
+                        <textarea class="form-control" name="comentario" id="comment" placeholder="Comentario..." rows="4" maxlength="250"></textarea>
                     </div>
-                        <button type="submit" class="btn bluemiddle center-block">Enviar <i class="fa fa-paper-plane"></i> </button>
+                        <button type="submit" class="btn bluemiddle center-block" id="enviar">Enviar <i class="fa fa-paper-plane"></i> </button>
                 </form>
             </div>
 
+            <div class="col-xs-12 col-md-3 col-lg-3">
+                <h4><!--i class="fa fa-envelope-o"--></i> Perfil LinkedIn</h4>
+                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="light" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
+                <!--<div class="text-center">-->
+                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>
+                <!--</div>-->
+                <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="eugenio-vorontsov-8319a248"><a class="LI-simple-link" href='https://ar.linkedin.com/in/eugenio-vorontsov-8319a248?trk=profile-badge'>Eugenio Vorontsov</a></div>-->
+            </div>
+
         </div><!--/row2-->
-
-
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-md-12 col-lg-12">
+                <hr>
                 <div class="row">
-
-                    <div class="col-xs-2 col-md-2 col-lg-2 text-center">
-                        <a class="btn btn-default twitter" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2 text-center">
-                        <a class="btn btn-default instagram" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2 text-center">
-                        <a class="btn btn-default github" href="https://github.com/search?utf8=%E2%9C%93&q=maceuge%2F&type=Repositories&ref=searchresults" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2 text-center">
-                        <a class="btn btn-default linkedin" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2 text-center">
-                        <a class="btn btn-default slack" href=""><i class="fa fa-slack fa-2x"></i></a>
-                    </div>
-                    <div class="col-xs-2 col-md-2 col-lg-2 text-center">
-                        <a class="btn btn-default face" href=""><i class="fa fa-facebook fa-2x"></i></a>
+                    <div class="col-md-6">
+                        <div class="row separe">
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default github" href="https://github.com/search?utf8=%E2%9C%93&q=maceuge%2F&type=Repositories&ref=searchresults" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default linkedin" href="https://www.linkedin.com/in/eugenio-vorontsov-8319a248/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default slack"><i class="fa fa-slack fa-2x"></i></a>
+                            </div>
+                        </div>
                     </div>
 
-
-                    <!--<div class="col-xs-12 col-md-6 text-center">-->
-                        <!--<a class="btn btn-default twitter" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>-->
-                        <!--<a class="btn btn-default instagram" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>-->
-                        <!--<a class="btn btn-default github" href="https://github.com/search?utf8=%E2%9C%93&q=maceuge%2F&type=Repositories&ref=searchresults" target="_blank"><i class="fa fa-github fa-2x"></i></a>-->
-                    <!--</div>-->
-                    <!--<div class="col-xs-12 col-md-6 text-center">-->
-                        <!--<a class="btn btn-default linkedin" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>-->
-                        <!--<a class="btn btn-default slack" href=""><i class="fa fa-slack fa-2x"></i></a>-->
-                        <!--<a class="btn btn-default face" href=""><i class="fa fa-facebook fa-2x"></i></a>-->
-                    <!--</div>-->
-
+                    <div class="col-md-6">
+                        <div class="row separe">
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default twitter" href="https://twitter.com/eugenio_vr" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default instagram" href="https://www.instagram.com/evgenivr/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                            </div>
+                            <div class="col-xs-4 col-md-4 col-lg-4 text-center">
+                                <a class="btn btn-default face"><i class="fa fa-facebook fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </div><!--/row3-->
+
     </div>
 </section>
 <!--/parallax 3-->
 
+<!--Footer Bar-->
 <div class="footerbar-color text-center" id="footer">
     <div class="container">
         <p class="footer-bar">Copyright <i class="fa fa-copyright"></i> 2016. Todos los derechos Reservados
             <i class="fa fa-registered"></i> |
-            <a href="index.html"> www.eugeniovr.com.ar</a>
+            <a href="https://maceuge.github.io/"> www.maceuge.github.io</a>
         </p>
     </div>
 </div>
+<!--/footer bar-->
 
 <!--Boton Scroll Top-->
 <div class="top-button">
     <a class="btn-rolltop" href=""><i class="fa fa-arrow-up fa-lg"></i></a>
 </div>
 <!--/Boton Scroll Top-->
-
 
 
 <!--Modal Section-->
@@ -650,7 +657,14 @@
 <!--Basic JavaScript Plugin-->
 <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/bootstrapvalidator.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("user_syt90hOVKyr9FkB7a84s7");
+    })();
+</script>
+<script type="text/javascript" src="js/form-validate.js"></script>
+<script type="text/javascript" src="js/notifIt.js"></script>
 <script type="text/javascript" src="js/parallax.js"></script>
 <script type="text/javascript" src="js/navanim.js"></script>
 <script type="text/javascript" src="js/rolltop.js"></script>
@@ -661,16 +675,7 @@
 <script type="text/javascript" src="js/carucel-particle.js"></script>
 <script type="text/javascript" src="js/sobremi.js"></script>
 <script type="text/javascript" src="js/randomcolor.js"></script>
-
-
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-    (function(){
-        emailjs.init("user_syt90hOVKyr9FkB7a84s7");
-    })();
-</script>
-
-<script type="text/javascript" src="js/sendmailval.js"></script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 <!--<script type="text/javascript" src="js/portfoliofix.js"></script>-->
 
 <!--Fin de JavaScript Plugins-->

@@ -55,12 +55,13 @@ $(document).ready(function() {
         }
     })
 
+
     .on('success.form.bv', function(e) {
-        // $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
-        // $('#reg_form').data('bootstrapValidator').resetForm();
+        $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
+        $('#sendmail').data('bootstrapValidator').resetForm();
 
         // Prevent form submission
-        // e.preventDefault();
+        e.preventDefault();
 
         console.log("Hey Hey Kids!!!");
 
@@ -69,16 +70,20 @@ $(document).ready(function() {
         // emailjs.sendForm("gmail","template_kE7bGuek","sendmail");
 
         // // Get the form instance
-        // var $form = $(e.target);
+        var $form = $(e.target);
         //
         // // Get the BootstrapValidator instance
-        // var bv = $form.data('bootstrapValidator');
-        //
+        var bv = $form.data('bootstrapValidator');
+
+        console.log(bv);
+
         // // Use Ajax to submit form data
-        // $.post($form.attr('action'), $form.serialize(), function(result) {
-        //     console.log(result);
-        // }, 'json');
+        $.post($form.attr('action'), $form.serialize(), function(result) {
+            console.log(result);
+        }, 'json');
     });
 
+
+    console.log("hola estoy aqui");
 
 });

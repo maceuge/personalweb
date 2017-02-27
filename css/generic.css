@@ -4,7 +4,7 @@
     color: #eaeaea;
 }
 
-.bluemiddle:hover {
+.bluemiddle:hover, .bluemiddle:focus {
     background-color: #03b1ff;
     color: #ffffff;
 }

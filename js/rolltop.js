@@ -21,4 +21,9 @@ $(document).ready(function () {
        evt.preventDefault();
        $('body').animate({scrollTop: 0}, 1200);
    });
+
+    $('#nav-titpage').click(function (evt) {
+        evt.preventDefault();
+        $('body').animate({scrollTop: 0}, 1200);
+    });
 });
