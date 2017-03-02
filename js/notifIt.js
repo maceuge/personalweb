@@ -188,7 +188,7 @@
         defaults.animations.zoom = {
             'center': { // Not working well
                 'css_start': {
-                    "top": 10,
+                    "top": 65,
                     "left": mid - parseInt(defaults.width / 2),
                     "zoom": 0.01
                 },

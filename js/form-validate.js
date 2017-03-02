@@ -72,6 +72,18 @@ $(document).ready(function () {
 
         if (validarForm.validarAsunto() && validarForm.validarMail() && validarForm.validarComentario()) {
 
+            notif({
+                msg: "Enviando Email....",
+                position: "center",
+                fade: true,
+                bgcolor: "#039be5",
+                color: "#ffffff",
+                offset: 55,
+                // clickable: true,
+                timeout: 2800,
+                width: 300,
+            });
+
             emailjs.send("gmail","template_kE7bGuek",{
                 to_name: "Eugenio",
                 from_name: email[0].value,
@@ -82,12 +94,15 @@ $(document).ready(function () {
                 function(response) {
 
                     notif({
-                        msg: "El Email se envio con exito. Gracias por contactarme!",
+                        msg: "El Email se envio con exito!",
                         type: "success",
+                        color: "#0e351b",
                         position: "center",
+                        autohide: true,
+                        offset: 55,
                         fade: true,
-                        // clickable: true,
-                        timeout: 6000,
+                        timeout: 12000,
+                        width: 300,
                     });
 
                     $('#sendmail')[0].reset();
@@ -101,11 +116,14 @@ $(document).ready(function () {
                 function(error) {
 
                     notif({
-                        msg: "Hubo un error en el envio del mail, vuelva a intentarlo!",
+                        msg: "Fallo el envio de Email",
                         type: "error",
                         position: "center",
+                        autohide: true,
+                        offset: 55,
                         fade: true,
-                        timeout: 6000,
+                        timeout: 12000,
+                        width: 300,
                     });
                 }
             );
