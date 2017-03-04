@@ -63,7 +63,7 @@ $(document).ready(function () {
                 errorSelect[2].setAttribute("class","form-group has-error");
                 errorDetail[2].innerHTML = "El campo Comentario no puede estar vacio.";
             } // fin 1 if else
-        } // fin validarMail()
+        } // fin validarComentario()
 
     }; // fin validarFormulario
 
@@ -111,7 +111,6 @@ $(document).ready(function () {
                     errorSelect[2].setAttribute("class","form-group");
                     $('#enviar')[0].blur();
 
-
                 },
                 function(error) {
 
@@ -128,13 +127,26 @@ $(document).ready(function () {
                 }
             );
 
-            // form.submit();
         } else {
             validarForm.validarAsunto();
             validarForm.validarMail();
             validarForm.validarComentario();
             $('#enviar')[0].blur();
+            $('#borrar').fadeIn(500);
         }
     };
+
+    $('#borrar').on('click', function (evt) {
+        evt.preventDefault();
+        $('#sendmail')[0].reset();
+        errorSelect[0].setAttribute("class","form-group");
+        errorSelect[1].setAttribute("class","form-group");
+        errorSelect[2].setAttribute("class","form-group");
+        errorDetail[0].innerHTML = "";
+        errorDetail[1].innerHTML = "";
+        errorDetail[2].innerHTML = "";
+        $('#enviar')[0].blur();
+        $('#borrar').fadeOut(500);
+    });
 
 });  // fin window onload

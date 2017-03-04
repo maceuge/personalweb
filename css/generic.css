@@ -67,14 +67,6 @@ textarea {
     transition: all 0.3s ease-in-out;
 }
 
-.fa-check {
-    margin-top: 10px;
-}
-
-.fa-times {
-    margin-top: 10px;
-}
-
 .has-error .help-block{
     color: #ca363f;
 }
