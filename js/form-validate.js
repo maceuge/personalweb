@@ -110,6 +110,8 @@ $(document).ready(function () {
                     errorSelect[1].setAttribute("class","form-group");
                     errorSelect[2].setAttribute("class","form-group");
                     $('#enviar')[0].blur();
+                    $('#borrar').fadeOut(500);
+
 
                 },
                 function(error) {

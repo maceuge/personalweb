@@ -479,18 +479,19 @@ section {
 }
 
 .modal-header {
-    background-color: #78D4B6;
-    border-radius: 5px 5px 0px 0px;
+    /*background-color: #78D4B6;*/
+    /*border-radius: 5px 5px 0px 0px;*/
 }
 
 .modal-body {
+    /*background-color: #78D4B6;*/
     background-color: #039be5;
 }
 
-.form-control .form-slack {
-    color: #641864;
+.slack-form {
+    color: #039be5;
+    background-color: #fff;
 }
-
 
 /*Fin Boton Slack*/
 
@@ -538,8 +539,7 @@ section {
 .form-control {
     border: 1px solid #aaaaaa;
     border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.20);
-    color: #ffffff;
+
     transition: all 0.4s ease-in-out;
 }
 
@@ -551,6 +551,11 @@ section {
 .help-block {
     margin-top: 3px;
     margin-bottom: 1px;
+}
+
+.cont-form {
+    background-color: rgba(255, 255, 255, 0.20);
+    color: #ffffff;
 }
 
 /*Fin de contacto*/

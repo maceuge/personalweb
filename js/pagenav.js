@@ -48,7 +48,7 @@ $(document).ready(function () {
 
     $('#contacto, #libros, #links').click(function (e) {
         e.preventDefault();
-        $('body').animate({scrollTop: $(window).innerHeight() * 10}, 500);
+        $('body').animate({scrollTop: $(window).innerHeight() * 10}, 1200);
     })
 
 });
