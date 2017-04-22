@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="725c0186-6efe-4054-9e80-ae1a90027fda" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carousel/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carousel/img21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carousel/img22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carousel/img23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carousel/img24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carousel/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cursos/logo_digitalhouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cursos/logo_uba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cursos/logo_utn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/desarrollo/semantic.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fotoTest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/grid.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/imgTest1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/imgTest2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/imgTest3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_digitalhouse.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_digitalhouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_ipc.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_uba.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_uba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_utn.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/logo_utn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mailtitle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/parallax/estudios.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/parallax/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/parallax/footerblue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/polygon/color_polygons.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sobremi/Working copia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sobremi/Working.fw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sobremi/Working.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/animate-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrapvalidator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/certifslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/parsley.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/portfoliofix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/sendmailval.js" afterPath="" />
+    </list>
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="149" />
+    <option name="y" value="62" />
+    <option name="width" value="1686" />
+    <option name="height" value="911" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maceuge.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maceuge.github.io" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="725c0186-6efe-4054-9e80-ae1a90027fda" name="Default" comment="" />
+      <created>1487730994735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487730994735</updated>
+      <workItem from="1487730996049" duration="748000" />
+      <workItem from="1487856577463" duration="142000" />
+      <workItem from="1488226729247" duration="651000" />
+      <workItem from="1488419176123" duration="204000" />
+      <workItem from="1488661595463" duration="182000" />
+      <workItem from="1488848741038" duration="220000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2147000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="149" y="62" width="1686" height="911" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2652068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73382175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52991456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
